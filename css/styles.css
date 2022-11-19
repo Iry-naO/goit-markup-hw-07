@@ -842,7 +842,7 @@ img {
     fill: var(--accent-color);
 }
 
-.data__title {
+.modal__title {
     margin: 0;
     margin-bottom: 12px;
     text-align: center;
@@ -853,14 +853,14 @@ img {
     color: var(--form-title-color);
 }
 
-.data__form {
+.data-form {
     display: block;
     width: 100%;
     height: 466px;
     margin: 0;
 }
 
-.data__label {
+.data-form__label {
     display: block;
     margin-bottom: 4px;
     color: var(--label-color);
@@ -871,7 +871,7 @@ img {
     letter-spacing: 0.01em;
 }
 
-.data__input {
+.data-form__input {
     display: block;
     padding: 11px 12px 11px 42px;
     width: 100%;
@@ -883,19 +883,19 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 }
 
-.data__input:hover,
-.data__input:focus {
+.data-form__input:hover,
+.data-form__input:focus {
     border-color: var(--accent-color);
 }
 
-.data__wrapper {
+.data-form__wrapper {
     margin: 0;
     margin-bottom: 10px;
     position: relative;
     color: var(--brand-color);   
 }
 
-.data__icon {
+.data-form__icon {
     position: absolute;
     left: 12px;
     top: 11px;
@@ -903,12 +903,12 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.data__input:hover + .data__icon,
-.data__input:focus + .data__icon {
+.data-form__input:hover + .data__icon,
+.data-form__input:focus + .data__icon {
     fill: var(--accent-color);
 }
 
-.data__comment {
+.data-form__comment {
     width: 100%;
     height: 120px;
     resize: none;
@@ -925,8 +925,8 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.data__comment:hover,
-.data__comment:focus {
+.data-form__comment:hover,
+.data-form__comment:focus {
     border-color: var(--accent-color);
 }
 
