@@ -26,18 +26,15 @@
     --border-color: rgba(255, 255, 255, 0.3);
     --email-color: rgba(255, 255, 255, 0.6);
 }
-
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--inversion-color);
 } 
-
 h1,
 h2,
 h3,
@@ -66,33 +63,31 @@ img {
     padding-right: 15px;
     margin: 0 auto;
 }
-
 .section {
     padding: 94px 0;
 }
-
 .header {
    border-bottom: 1px solid var(--topline-color);
 }
 
 .header__container {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   gap: 312px;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 312px;
+ }
 
-.logo {
+ .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
     text-decoration: none;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: var(--accent-color);   
-}
+    color: var(--accent-color);
+ }
 
-.header__logo {
+ .header__logo {
     display: block;
     padding: 25px 0;
 }
@@ -139,11 +134,9 @@ img {
     text-decoration: none;
     letter-spacing: 0.02em;
     color: var(--head-color);
-
     display: block;
     padding: 32px 0;
     text-align: center;
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -189,7 +182,6 @@ img {
     color: var(--accent-color);
     fill: var(--accent-color);
 }
-
 
 .contacts__icon {
     fill: currentColor;
@@ -256,7 +248,6 @@ img {
     cursor: pointer;
     color: var(--inversion-color);
     background-color: var(--accent-color);
-
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -264,7 +255,6 @@ img {
     padding: 10px 32px;
     border: 0;
     border-radius: 4px;
-
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -313,7 +303,6 @@ img {
     text-align: left;
     text-transform: uppercase;
     color: var(--head-color);
-
     margin-bottom: 10px;
 }
 
@@ -323,7 +312,6 @@ img {
     text-align: left;
     letter-spacing: 0.03em;
     color: var(--primary-color);
-
     margin: 0 auto;
 }
 
@@ -341,7 +329,6 @@ img {
     line-height: 1.1;
     letter-spacing: 0.03em;
     color: var(--head-color);
-
     text-align: center;
     margin-bottom: 50px;
 }
@@ -357,7 +344,6 @@ img {
     justify-content: center;
     align-items: center;
     background-color: var(--bg-action-color);
-
     position: absolute;
     width: 100%;
     height: 70px;
@@ -401,7 +387,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--head-color);
-
     text-align: center;
     margin-bottom: 10px;
 }
@@ -411,7 +396,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--primary-color);
-
     text-align: center;
     margin: 0 auto;
 }
@@ -439,7 +423,6 @@ img {
     align-items: center;
     background-color: var(--inversion-color);
     color: var(--link-color);
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -483,7 +466,6 @@ img {
     border-radius: 4px;
     background-color: var(--inversion-color);
     color: var(--link-color);
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
@@ -561,7 +543,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--inversion-color);
-
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -588,7 +569,6 @@ img {
     align-items: center;
     background-color: var(--bg-link-color);
     color: var(--inversion-color);
-
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -651,20 +631,19 @@ img {
     gap: 10px;
     padding: 10px;
     margin: 0 auto;
-
     background-color: var(--accent-color);
     color: var(--inversion-color);
     border: 0;
     border-radius: 4px;
     cursor: pointer;
     box-shadow: 0px 4px 4px var(--button-shadow-color);
-
     font-family: inherit;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.875;
     letter-spacing: 0.06em;
 
+    transition: backdrop-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -699,7 +678,6 @@ img {
     border-radius: 4px;
     cursor: pointer;
     padding: 6px 22px;
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -744,7 +722,6 @@ img {
     width: 370px;
     height: 294px;
     overflow: hidden;
-
     background-color: var(--inversion-color);
 }
 
@@ -771,7 +748,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.03em;
     color: var(--inversion-color);
-
     margin: 0;
 }
 
@@ -812,7 +788,6 @@ img {
                 visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: var(--backdrop-color);
 }
-
 .is-hidden {
     opacity: 0;
     visibility: hidden;
@@ -827,14 +802,12 @@ img {
                 0px 1px 1px rgba(0, 0, 0, 0.14),
                 0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 4px;            
-
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) scaleX(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scaleX(0.5);
 }
@@ -848,11 +821,13 @@ img {
     border-radius: 50%;
     border: 1px solid var(--modal-button-color);
     background-color: var(--inversion-color);
+    fill: var(--brand-color);
     color: var(--brand-color);
     cursor: pointer;
 
     position: absolute;
     right: 8px;
+    top: 8px;
     top: 8px;   
 }
 
@@ -881,6 +856,7 @@ img {
 .data__form {
     display: block;
     width: 100%;
+    height: 466px;
     margin: 0;
 }
 
@@ -889,7 +865,6 @@ img {
     margin-bottom: 4px;
     color: var(--label-color);
     cursor: pointer;
-
     font-size: 12px;
     font-weight: 400;
     line-height: 1.171;
@@ -905,7 +880,6 @@ img {
     border-radius: 4px;
     cursor: pointer;
     outline: none;
-
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 }
 
@@ -925,7 +899,6 @@ img {
     position: absolute;
     left: 12px;
     top: 11px;
-
     fill: currentColor;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -945,12 +918,10 @@ img {
     padding: 16px 12px;
     cursor: pointer;
     outline: none;
-
     font-size: 14px;
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: 0.01em;
-
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -995,7 +966,6 @@ img {
     border-radius: 2px;
     background-color: var(--inversion-color);
     color: var(--inversion-color);
-
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1007,6 +977,7 @@ img {
     background-color: var(--accent-color);   
     border: none;
 }
+
 
 .checkbox__link {
     color: var(--accent-color);
@@ -1023,13 +994,11 @@ img {
     border-radius: 4px;
     box-shadow: 0px 4px 4px var(--button-shadow-color);
     cursor: pointer;
-
     font-family: inherit;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.875;
     letter-spacing: 0.06em;
-
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1037,4 +1006,3 @@ img {
 .data__button:focus {
     background-color: var(--active-color);
 }
-
