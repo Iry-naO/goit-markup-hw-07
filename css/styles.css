@@ -66,16 +66,8 @@ img {
 .section {
     padding: 94px 0;
 }
-.header {
-   border-bottom: 1px solid var(--topline-color);
-}
 
-.header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 312px;
- }
+
 
  .logo {
     font-family: 'Raleway', sans-serif;
