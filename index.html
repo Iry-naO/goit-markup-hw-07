@@ -11,11 +11,7 @@
       rel="stylesheet"
     />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -112,7 +108,7 @@
           </ul>
         </div>
       </section>
-      <section class="product-section">
+      <section class="product">
         <div class="container">
           <h2 class="section__title">Чим ми займаємося</h2>
           <ul class="product__list list">
@@ -145,7 +141,7 @@
           </ul>
         </div>
       </section>
-      <section class="team-section section">
+      <section class="team section">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
           <ul class="team__list list">
@@ -155,7 +151,7 @@
                 alt="Усміхнений бородатий чоловік брюнет в окулярах та коричневій сорочці."
                 width="270"
               />
-              <div class="member-container">
+              <div class="member">
                 <h3 class="member__title">Ігор Дем'яненко</h3>
                 <p lang="en" class="member__text">Product Designer</p>
                 <ul class="list member__list">
@@ -196,7 +192,7 @@
                 alt="Усміхнена жінка блондинка в окулярах та чорному піджаку."
                 width="270"
               />
-              <div class="member-container">
+              <div class="member">
                 <h3 class="member__title">Ольга Рєпіна</h3>
                 <p lang="en" class="member__text">Frontend Developer</p>
                 <ul class="list member__list">
@@ -237,7 +233,7 @@
                 alt="Усміхнений чоловік шатен у блакитній сорочці."
                 width="270"
               />
-              <div class="member-container">
+              <div class="member">
                 <h3 class="member__title">Микола Тарасов</h3>
                 <p lang="en" class="member__text">Marketing</p>
                 <ul class="list member__list">
@@ -278,7 +274,7 @@
                 alt="Усміхнений бородатий чоловік брюнет в окулярах та чорній футболці."
                 width="270"
               />
-              <div class="member-container">
+              <div class="member">
                 <h3 class="member__title">Михайло Єрмаков</h3>
                 <p lang="en" class="member__text">UI Designer</p>
                 <ul class="list member__list">
@@ -321,43 +317,43 @@
           <h2 class="section__title">Постійні клієнти</h2>
           <ul class="list clients">
             <li class="clients__item">
-              <a href="#" class="client__link">
-                <svg class="client__icon" width="106" height="60">
+              <a href="#" class="clients__link">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-Logo1"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="#" class="client__link">
-                <svg class="client__icon" width="106" height="60">
+              <a href="#" class="clients__link">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-Logo2"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="#" class="client__link">
-                <svg class="client__icon" width="106" height="60">
+              <a href="#" class="clients__link">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-Logo-3"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="#" class="client__link">
-                <svg class="client__icon" width="106" height="60">
+              <a href="#" class="clients__link">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-Logo4"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="#" class="client__link">
-                <svg class="client__icon" width="106" height="60">
+              <a href="#" class="clients__link">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-Logo5"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="#" class="client__link">
-                <svg class="client__icon" width="106" height="60">
+              <a href="#" class="clients__link">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-Logo6"></use>
                 </svg>
               </a>
@@ -428,7 +424,7 @@
               </li>
             </ul>
           </div>
-          <form name="subscribe-form">
+          <form name="subscribe-form" class="subscribe">
             <p class="subscribe__title">Підпишіться на розсилку</p>
             <div class="subscribe__wrapper">
               <input
@@ -496,7 +492,7 @@
               Погоджуюся з розсилкою та приймаю <a href="#" class="checkbox__link">Умови договору</a>
             </p>
           </label>
-          <button class="data__button" type="submit">Відправити</button>
+          <button class="data-form__button" type="submit">Відправити</button>
         </form>
       </div>
     </div>
