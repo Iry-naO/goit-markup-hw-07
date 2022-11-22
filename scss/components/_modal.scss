@@ -6,8 +6,7 @@
     height: 100%;
     z-index: 1;
     opacity: 1;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition(opacity, visibility);
     background-color: $color-backdrop;
 }
 
@@ -29,7 +28,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) scaleX(1);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition(transform);
 
     .backdrop.is-hidden & {
         transform: translate(-50%, -50%) scaleX(0.5);
@@ -56,8 +55,8 @@
 
     &__icon {
         fill: currentColor;
-    
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        @include transition(fill);
 
         .modal__button:hover &, .modal__button:focus & {
                 fill: $color-accent;
